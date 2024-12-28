@@ -1,0 +1,11 @@
+Accident_ID,Time_of_Day,Weather,Road_Condition,Location,Accidents
+1,Morning,Clear,Dry,City Center,5
+2,Afternoon,Rainy,Wet,Highway,12
+3,Evening,Foggy,Wet,Suburbs,3
+4,Night,Clear,Dry,Downtown,2
+5,Morning,Rainy,Wet,City Center,8
+6,Afternoon,Clear,Dry,Suburbs,4
+7,Evening,Clear,Wet,Highway,10
+8,Night,Foggy,Wet,Downtown,7
+9,Morning,Clear,Dry,Highway,6
+10,Afternoon,Rainy,Wet,City Center,15
