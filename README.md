@@ -1,9 +1,74 @@
-<H1>Task-based Data Analysis</H1>
+# Accident Contributing Factors Visualization
 
-<PRE>
-TGDI analyzes accident data based on factors like time of day, weather, and road conditions. It uses Pandas for data manipulation and Matplotlib for visualizing trends.
+This project analyzes accident data and visualizes how factors like **Time of Day**, **Weather**, and **Road Condition** contribute to the number of accidents.
 
-<H3>Features</H3>
-Aggregates accident data by time, weather, and road conditions
-Generates stacked bar chart visualizations
-</PRE>
+---
+
+## 🔍 Dataset Overview
+
+- `task05.csv` contains accident records with the following fields:
+  - `Time_of_Day`
+  - `Weather`
+  - `Road_Condition`
+  - `Location`
+  - `Accidents` (count)
+
+---
+
+## 📊 What It Does
+
+- Groups the accident data by Time of Day, Weather, and Road Condition.
+- Sums up accidents under those combinations.
+- Visualizes them as a stacked bar chart.
+
+---
+
+## 🧪 How to Run
+
+#### 1. Clone the repo and navigate into the folder:
+
+```bash
+   git clone <your-repo-url>
+   cd accident_analysis
+```
+
+#### 2. Run the program:
+
+```
+python main.py
+```
+
+---
+
+## 📦 Dependencies:
+pandas
+
+matplotlib
+
+#### Install them via:
+```
+pip install pandas matplotlib
+```
+
+---
+
+## 📁 Directory Structure:
+
+```
+accident_analysis/
+├──  task05.csv
+├── visualize.py
+├── main.py
+└── README.md
+```
+
+---
+
+## ✅ Example Output:
+A stacked bar chart showing accident distribution based on:
+
+Time of Day
+
+Weather
+
+Road Conditions
